@@ -1,0 +1,11 @@
+.welcome{
+ display: flex;
+ flex-direction: column;
+ border-radius: 20px;
+ background-color: black;
+ color: red;
+ padding: 20px;
+ align-items: center;
+ justify-items: center;
+ max-width: 50vh;
+}

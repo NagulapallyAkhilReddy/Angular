@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  align-content: center;
+  justify-self: center;
+  background-color: orange; 
+  height: 100vh; 
+}

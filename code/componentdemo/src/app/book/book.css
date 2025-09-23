@@ -1,0 +1,13 @@
+.bookcomponent{
+  display: flex;
+  flex-direction: column;
+}
+.bookcomponent img{
+  height: 200px;
+  width: 150px;
+}
+h2{
+  font-style: italic;
+  font-size: large;
+
+}

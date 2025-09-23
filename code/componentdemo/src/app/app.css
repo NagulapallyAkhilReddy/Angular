@@ -1,0 +1,14 @@
+body{
+  height: 100vh;
+  width: 100vw;
+}
+.books{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px;
+  margin: 20px;
+
+}
+h1{
+  text-align: center;
+}
