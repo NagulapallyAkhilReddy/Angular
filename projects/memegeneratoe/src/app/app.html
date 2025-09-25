@@ -1,0 +1,14 @@
+<app-header></app-header>
+<main >
+  <div class="leftDiv">
+    <input type="text" [(ngModel)]="firsttext" />
+    <input type="text" [(ngModel)]="secondtext" />
+    <button (click)="generate()">Generate</button>
+  </div>
+  <div class="rightDiv" >
+    {{text1}}
+    {{text2}}
+  </div>
+
+</main>
+<app-footer></app-footer>
