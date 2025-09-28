@@ -1,0 +1,8 @@
+<input type="text" [(ngModel)]="num" (input)="check()"/>
+<button (click)="check()">check</button>
+@if(isEven){
+  {{num}} is Even
+}
+@else{
+  {{num}} is Odd
+}
