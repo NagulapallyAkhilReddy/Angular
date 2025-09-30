@@ -1,0 +1,11 @@
+<div *ngIf="isShow else chitti">Welcome to Angular</div>
+<ng-template #chitti>
+  <p>Bye Bye babe</p>
+</ng-template>
+@if(isAkhil){
+  <div>Hi This is Akhil here</div>
+}
+@else{
+  <div>hey, stranger lets get to know</div>
+}
+<button (click)="change()">Click to get started</button>
