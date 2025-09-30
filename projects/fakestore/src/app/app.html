@@ -1,0 +1,14 @@
+<app-header></app-header>
+<div class="main">
+@for(p of products;track p){
+  
+  <div >
+     <p>{{p.title}}</p>
+     <img src={{p.image}} alt={{p.title}}>
+     <p>{{p.price}}</p>
+
+    </div>
+    
+}
+</div>
+<app-footer></app-footer>
