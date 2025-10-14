@@ -1,0 +1,5 @@
+<div [ngClass]="isDark?'dark':'light'" [ngStyle]="{fontSize:isDark?'48px':'36px'}">
+  <h1>This is a simple div</h1>
+  <p [ngClass]="isPara?'para':'para1'" [ngStyle]="{color:isPara?'red':'green'}">This is a demo para</p>
+</div>
+<button (click)="fun()">click me</button>
